@@ -1,7 +1,7 @@
 apiVersion: cluster.x-k8s.io/v1beta1
 kind: Cluster
 metadata: # kpt-merge: default/workload
-  name: workload
+  name: example
   namespace: default
   annotations:
     internal.kpt.dev/upstream-identifier: 'cluster.x-k8s.io|Cluster|default|workload'
